@@ -13,7 +13,7 @@ if std.extVar('screens_target') != null then [
         component: 'r-segmentation-chart',
         type: 1,
         reportOptions: {
-          modelName: 'screens',
+          modelName: 'screens', 
           dimensions: [
             {
               name: 'context_device_type',
